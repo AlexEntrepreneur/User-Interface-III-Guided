@@ -90,6 +90,7 @@ button {
   margin-bottom: 100px;
   border: 2px solid royalblue;
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .parent-container .child-item {
