@@ -90,12 +90,13 @@ button {
   margin-bottom: 100px;
   border: 2px solid royalblue;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .parent-container .child-item {
   width: 100px;
-  height: 100px;
+  /* height: 100px; */
   border: 1px solid #9f9f9f;
 }
 
