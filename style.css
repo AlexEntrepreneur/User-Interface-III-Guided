@@ -67,11 +67,14 @@ button {
 }
 .main-content {
   display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .main-content section {
   vertical-align: top;
-  width: 50%;
+  width: calc(50% - 10px);
+  /* margin-right: 20px; */
 }
 
 .main-content section:nth-of-type(odd) {
